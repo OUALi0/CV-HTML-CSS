@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh ;
+}
+.container{
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow:0 35px 55px rgb(0,0,0,0.1) ;
+
+
+}
+.container .left{
+  position: relative;
+  background-color: #003147;
+  padding: 40px;
+  color: #fff;
+}
+.profil{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(225,225,225,0.2);
+}
+.profil .img{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profil h1{
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 2em;
+}
+.profil h4,h3{
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+  margin-top: 10px;
+  line-height: 1.5em;
+}
+.title{
+  text-align: center;
+  color: #fff;
+  font-size: 1.8em;
+  margin: 20px 0;
+}
+
+.container .left ul,li{
+  position: relative;
+  list-style: none;
+  font-size: 1.3em;
+  color: #fff;
+  padding-bottom: 10px;
+}
+.info{
+  display: inline-block;
+  width: 100%;
+}
+.langue{
+  display: inline-block;
+  width: 29%;
+}
+.liste{
+  position: relative;
+  color: #fff;
+  padding-bottom: 10px;
+  font-size: 1.3em;
+
+}
+.container .right{
+  position: relative;
+  background-color: #393E46;
+  padding: 40px;
+  color: #fff;
+  
+}
+.container .right p{
+  position: relative;
+  font-size: 1.3em;
+}
+.annee{
+  display: inline-block;
+  width: 20%;
+}
+.technique{
+  display: inline-block;
+  width: 100%;
+}
+
+
+
+
